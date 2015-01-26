@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first CMS</title>
+	<meta charset="utf-8">
+	<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+	<header></header>
+
+
+	<main class="container">
+		<section class="row">
+	
+
+	<!-- The admin form -->
+			<section id="admin-form" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				<form>
+					<div class="form-group">
+						<h2>Administer page:</h2>
+					</div>
+
+					<div class="form-group">
+						<label for="page_title">Page Tilte</label>
+						<input type="text" id="page_title" class="form-control" placeholder="Enter page title ..." required>
+					</div>
+
+					<div class="form-group">
+						<label for="page_url">Page Url</label>
+						<div class="input-group pageUrlGroup">
+							<span class="input-group-addon">
+								<input type="checkbox">
+							</span>
+							<input type="text" id="page_url" class="form-control" placeholder="Enter page url ..." disabled>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="page_body">Page Body</label>
+						<textarea id="page_body" class="form-control" rows="8" placeholder="Enter page body contant ..."></textarea>
+					</div>
+					<div class="row col-xs-6 col-xs-offset-0 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+					<button type="submit" class="btn btn-success btn-lg btn-block">Save Page</button>
+					</div>
+				</form>
+			</section>
+
+
+		</section>
+
+
+
+	<main>
+		
+
+
+	<footer></footer>
+</body>
+
+
+
+
+
+
+</html>
